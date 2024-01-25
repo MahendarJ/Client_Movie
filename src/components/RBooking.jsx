@@ -8,7 +8,7 @@ import {
   movie,
   seats,
   booked,
-  bookSeats,
+  // bookSeats,
 } from "./RBooking.slice";
 
 const RBooking = () => {
