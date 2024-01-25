@@ -20,7 +20,6 @@ const Booking = () => {
     const index = book.findIndex((item) => item.movie == selectMovie);
     if (index !== -1) {
       let updatedDetails = [...book];
-      //   updatedDetails[index].movie = selectMovie;
       updatedDetails[index].seat = [
         ...updatedDetails[index].seat,
         ...selectSeat,

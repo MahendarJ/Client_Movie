@@ -65,13 +65,13 @@ const RBooking = () => {
         })}
       </div>
       <p>{seatsState.length * 200}</p>
-      {/* <button className="book" onClick={() => dispatch(handleBooked())}>Book</button> */}
-      <button
+      <button className="book" onClick={() => dispatch(handleBooked())}>Book</button>
+      {/* <button
         className="book"
         onClick={() => dispatch(bookSeats({ movieState, seatsState }))}
       >
         Book
-      </button>
+      </button> */}
     </div>
   );
 };

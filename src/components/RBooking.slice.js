@@ -1,17 +1,17 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import axios from "axios";
 
-const URI = "http://localhost:3001";
+// const URI = "http://localhost:3001";
 
-export const fetchSeats = createAsyncThunk("book/getSeats", async () => {
-  const data = await axios.get(URI);
-  // return data.data;
-});
-export const bookSeats = createAsyncThunk("book/Bookseats", async (value) => {
-  const res = value
-  const data = await axios.post(URI, res);
-  // return data.data;
-});
+// export const fetchSeats = createAsyncThunk("book/getSeats", async () => {
+//   const data = await axios.get(URI);
+//   // return data.data;
+// });
+// export const bookSeats = createAsyncThunk("book/Bookseats", async (value) => {
+//   const res = value
+//   const data = await axios.post(URI, res);
+//   // return data.data;
+// });
 
 export const bookingSlice = createSlice({
   name: "booking",
